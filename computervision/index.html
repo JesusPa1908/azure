@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Reconocimiento de Texto con Azure AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="vision-ia">
+    <header class="vision-ia__header">
+      <div>
+        <h2 class="vision-ia__title">Extraer texto de una imagen (OCR)</h2>
+        <p class="vision-ia__desc muted">Sube una imagen y pulsa "Analizar Imagen" para extraer texto usando Azure.</p>
+      </div>
+    </header>
+
+    <section class="vision-ia__main">
+      <div class="vision-ia__left">
+        <div class="vision-ia__controls">
+          <div class="file-input">
+            <label for="imagen">Seleccionar archivo</label>
+            <input type="file" id="imagen" accept="image/*">
+            <button class="btn" onclick="procesarImagen()">Analizar Imagen</button>
+          </div>    
+        </div>
+        
+        <div class="preview card" id="preview">
+          <div class="preview__placeholder">Vista previa: no hay imagen seleccionada</div>
+        </div>
+      </div>
+
+      <aside class="vision-ia__right">
+        <div class="card">
+          <h3 class="results__title">Texto detectado:</h3>
+          <textarea id="resultado" rows="10" cols="30" readonly style="width:100%;resize:vertical"></textarea>
+          <div style="margin-top:0.5rem;">
+            <button class="btn" onclick="descargarTexto()">Descargar texto</button>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
