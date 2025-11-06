@@ -1,0 +1,15 @@
+Claves:
+
+-Chatbot:
+Key: Dm23OAkcJlyj7N7HzKdJb75stBQK6CJQGsu88N3JKmv2ybkoqh6hJQQJ99BKACi5YpzAArohAAABAZBS3Qo1.FQKVw96IsKJ4TShOuBUVrYPPTmAprLALLJS4qwSsOWRSmQWa9dN9JQQJ99BKACi5YpzAArohAAABAZBSmuj4
+
+Iframe: 
+        <iframe 
+            src='https://webchat.botframework.com/embed/botaz2025-bot?s=Dm23OAkcJlyj7N7HzKdJb75stBQK6CJQGsu88N3JKmv2ybkoqh6hJQQJ99BKACi5YpzAArohAAABAZBS3Qo1.FQKVw96IsKJ4TShOuBUVrYPPTmAprLALLJS4qwSsOWRSmQWa9dN9JQQJ99BKACi5YpzAArohAAABAZBSmuj4'
+            class="chat-iframe"
+            title="Chatbot">
+        </iframe>
+
+Clasificador de imágenes, Computer vision:
+Endpoint: https://computervdemo.cognitiveservices.azure.com/
+Key: 81kMOL2djGlvEIRkKgZaotGSFKcHjkYexWKqnd84FO6OboTUv9GwJQQJ99BJACZoyfiXJ3w3AAAFACOGKjLZ
